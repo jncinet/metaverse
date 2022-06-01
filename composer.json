@@ -1,0 +1,30 @@
+{
+    "name": "jncinet/metaverse",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "homepage": "https://www.qihucms.com",
+    "keywords": [
+        "jncinet", "metaverse"
+    ],
+    "authors": [
+        {
+            "name": "zhangye",
+            "email": "365chizhou@sina.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jncinet\\Metaverse\\": "src/"
+        }
+    },
+    "require": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jncinet\\Metaverse\\MetaverseServiceProvider"
+            ]
+        }
+    }
+}
